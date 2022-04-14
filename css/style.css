@@ -1,0 +1,135 @@
+/* Selector Global */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+}
+.textoCard{
+    text-align: left;
+    margin-top: 10px;
+}
+ /* TAMAÑO DEL LOGO EN NAV */
+.imgNav{
+    width: 100px;
+}
+/* TITULOS DE LAS SECCIONES */
+.tituloSecciones{
+    color: rgb(0, 0, 0);
+    background: rgb(255, 174, 0);
+    text-align: left;
+    padding: 8px;
+    font-size: 1.5rem;
+    font-style: normal;
+    text-align: center;
+}
+/* TOP 3 DE LAS NOTICIAS SUPERIORES */
+.noticiasTop{
+    height: 200px;
+    background: rgb(255,175,0,1);
+    padding: 10px;
+    color: black;
+    text-align: center;
+    width: 100%;
+}
+/* PSEUDOCLASE DE NOTICIAS TOP */
+.noticiasTop:hover{
+    background: rgb(230, 185, 88);
+    background: linear-gradient(0deg, rgb(230, 185, 88) 0%, rgb(230, 185, 88) 0%, rgba(255,224,0,0) 100%);
+}
+.h2Top{
+    background-color: rgb(255, 136, 0);
+    padding: 5px;
+    border-radius: 5px;
+}
+h3{
+    margin-top: 10px;
+    font-size: 1.5rem;
+}
+/* TAMAÑO IMAGENES DEL CAROUSEL */
+.imgCarousel{
+    height: auto;
+}
+/* TAMAÑO IMAGENES DE LOS SPONSORS Y CONFIGURACIONES */
+.imgSponsors{
+    width: 80px;
+    margin: 10px;
+    padding: 5px;
+}
+.backgroundSponsors{
+    background-color: greenyellow;
+}
+.sponsors{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-content: center;
+    align-items: center;
+    background-color: greenyellow;
+    width: 100%;
+}
+/* CONFIGURACIONES DE LAS TARJETAS STEPS */
+.cardsAlign{
+    display: flex;
+    justify-content: space-evenly;
+}
+.cardGroup{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+.bkCardGroup{
+    background-color: rgba(128, 128, 128, 0.274);
+}
+.title1{
+    background-color: rgb(125, 204, 54);
+}
+.title2{
+    background-color: rgb(57, 195, 187);
+}
+.title3{
+    background-color: rgb(230, 73, 72);
+}
+.title5{
+    background-color: rgb(76, 112, 182);
+}
+/* IMAGENES DE TESTIMONIOS */
+.imgTestimonios{
+    width: 35%;
+    border-radius: 100% 100% 100% 100% / 100% 100% 100% 100%; ;
+}
+/* PROPIEDADES IMAGENES DE SERVICIOS */
+.imgCenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+ /* **** PIE DE PAGINA **** */
+ footer{
+    background: rgb(56, 56, 56);
+    color: white;
+    padding: 30px;
+}
+.divFooterFlex{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+.iconSocialMedia{
+    display: flex;
+    align-items: right;
+    justify-content: space-around;
+    align-items: center;
+    width: 40px;
+}
+.contactoFooter{
+    padding: 10px;
+}
+/* FIN PIE DE PAGINA */
